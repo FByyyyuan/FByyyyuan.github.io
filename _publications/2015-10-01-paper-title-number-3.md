@@ -1,5 +1,5 @@
 ---
-title: 'Class-imbalanced Time Series Adaptation via Multi-Expert Consistency Entropy Minimization'
+title: "Class-imbalanced Time Series Adaptation via Multi-Expert Consistency Entropy Minimization"
 collection: publications
 category: conferences
 permalink: /publication/2015-10-01-paper-title-number-3
