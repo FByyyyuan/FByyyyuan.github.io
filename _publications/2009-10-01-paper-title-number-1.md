@@ -7,7 +7,7 @@ excerpt: 'Diabetic retinopathy (DR) is a leading cause of preventable blindness,
 date: 2024-10-16
 venue: 'IEEE TMI'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/Yuan Ma-ECAI2023MsCtrl.pdf'
+paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Y. Ma et al., "Grade-Skewed Domain Adaptation via Asymmetric Bi-Classifier Discrepancy Minimization for Diabetic Retinopathy Grading," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2024.3485064.'
 ---
 
