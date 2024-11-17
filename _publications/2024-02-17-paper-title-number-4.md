@@ -1,11 +1,11 @@
 ---
-title: "Paper Title Number 4"
+title: "Letting Go of Self-Domain Awareness: Multi-Source Domain-Adversarial Generalization via Dynamic Domain-Weighted Contrastive Transfer Learning"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
+excerpt: 'Domain generalization (DG) aims to train models that generalize to unseen target domains, often by learning domain-invariant representations. However, overly compressed representations can confuse classes within the same domain. To address this, we propose MsCtrl, a framework incorporating dynamic domain-weighted contrastive loss to enhance class separation within domains while aligning source and target subdomains adversarially. Experiments show that MsCtrl outperforms state-of-the-art methods on real-world datasets.'
+date: 2023-10-01
+venue: 'ECAI2023'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
