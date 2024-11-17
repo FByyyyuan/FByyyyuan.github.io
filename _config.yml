@@ -22,7 +22,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yuan Ma"
-  pronouns         : she/her# example: "she/her"  
+  pronouns         : "she/her"# example: "she/her"  
   bio              : "F.B"
   location         : "Beijing, China"
   employer         : "ICT, UCAS"
@@ -62,7 +62,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : "KAZ"# Username
+  steam            : "fb_kaz"# Username
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
