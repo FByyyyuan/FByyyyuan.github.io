@@ -1,5 +1,4 @@
 # Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -23,7 +22,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yuan Ma"
-  pronouns         : # example: "she/her"  
+  pronouns         : she/her# example: "she/her"  
   bio              : "F.B"
   location         : "Beijing, China"
   employer         : "ICT, UCAS"
