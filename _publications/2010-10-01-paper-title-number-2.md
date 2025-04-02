@@ -7,7 +7,7 @@ excerpt: 'Wearable-based time series recognition aims to infer behavioral classe
 date: 2024-12-2
 venue: 'IEEE International Conference on Bioinformatics and Biomedicine '
 paperurl: 'https://ieeexplore.ieee.org/document/10822753'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+citation: 'Y. Ma et al., "Grade-Skewed Domain Adaptation via Asymmetric Bi-Classifier Discrepancy Minimization for Diabetic Retinopathy Grading," in IEEE Transactions on Medical Imaging, vol. 44, no. 3, pp. 1115-1126, March 2025, doi: 10.1109/TMI.2024.3485064. '
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
