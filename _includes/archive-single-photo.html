@@ -1,0 +1,40 @@
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="archive__item-container">
+      {% if teaser %}
+        <div class="archive__item-image">
+          <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="">
+        </div>
+      {% endif %}
+      <div class="archive__item-description">
+        <h3 class="archive__item-title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h3>
+        <p>{{ post.excerpt | markdownify }}</p>
+      </div>
+    </div>
+  </article>
+</div>
+.archive__item-container {
+  display: flex;
+  align-items: center;  /* 垂直居中对齐 */
+  margin-bottom: 20px;   /* 每个条目的间隔 */
+}
+
+.archive__item-image {
+  flex: 0 0 auto;        /* 图片不伸展 */
+  margin-right: 20px;    /* 图片和文字之间的间隔 */
+}
+
+.archive__item-description {
+  flex: 1 1 auto;        /* 文字部分占用剩余空间 */
+}
+
+.archive__item-image img {
+  width: 150px;          /* 图片宽度 */
+  height: auto;          /* 保持图片比例 */
+}
