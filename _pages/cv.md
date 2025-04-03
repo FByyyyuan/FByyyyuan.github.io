@@ -46,8 +46,8 @@ Publications
   
 Presentations
 ======
-* Oral at ECAI 2023 (Krakow, Poland)
-* Oral at BIBM 2024 (Lisbon, Portugal)
+* Oral presentation at ECAI 2023 (Krakow, Poland)
+* Oral presentation at IEEE BIBM 2024 (Lisbon, Portugal)
 
 Patent
 ======
