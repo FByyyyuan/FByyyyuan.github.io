@@ -13,8 +13,7 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at Institute Of Computing
 - **Transfer Learning： Domain Adaptation and Generalization**  
 - **AI for Healthcare**
 
-Publications
-======
+### Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
