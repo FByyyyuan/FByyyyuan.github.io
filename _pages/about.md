@@ -15,6 +15,6 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at Institute Of Computing
 
 ### Publications
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-photo.html %}
   {% endfor %}</ul>
 
