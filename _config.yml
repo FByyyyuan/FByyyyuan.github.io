@@ -22,7 +22,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yuan Ma"
-  pronouns         : "she/her"# example: "she/her"  
+  pronouns         : # example: "she/her"  
   bio              : "F.B"
   location         : "Beijing, China"
   employer         : "ICT, UCAS"
@@ -33,7 +33,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=vU4oUhsAAAAJ&hl=zh-CN"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0000-0002-5986-9646"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
