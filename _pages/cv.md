@@ -56,4 +56,3 @@ Patent
 Other Information
 ======
 * 720th Xiangshan Science Conference, Secretary of the Conference
-* 
