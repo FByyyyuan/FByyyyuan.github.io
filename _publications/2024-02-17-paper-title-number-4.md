@@ -7,6 +7,8 @@ excerpt: 'Domain generalization (DG) aims to train models that generalize to uns
 date: 2023-10-01
 venue: 'ECAI'
 paperurl: 'http://academicpages.github.io/files/Yuan Ma-ECAI2023MsCtrl.pdf'
+image: "https://github.com/FByyyyuan/FByyyyuan.github.io/blob/master/files/FB001.png"
+pdf:"https://github.com/FByyyyuan/FByyyyuan.github.io/blob/master/files/Yuan%20Ma-ECAI2023MsCtrl.pdf"
 citation: 'Y. Ma et al., " Letting Go of Self-Domain Awareness: Multi-Source Domain-Adversarial Generalization via Dynamic Domain-Weighted Contrastive Transfer Learning," in ECAI 2023. IOS Press, 2023: 1664-1671.'
 ---
 
