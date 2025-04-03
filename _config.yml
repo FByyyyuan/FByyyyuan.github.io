@@ -20,7 +20,7 @@ repository               : "FByyyyuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://github.com/FByyyyuan/FByyyyuan.github.io/blob/master/images/FByuan.jpg"
   name             : "Yuan Ma"
   pronouns         : # example: "she/her"  
   bio              : "F.B"
