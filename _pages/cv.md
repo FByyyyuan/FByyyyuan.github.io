@@ -11,35 +11,32 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, 2020-2026 (expected)
+  * Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China
+  * Thesis: Transfer learning methods in ubiquitous computing.
+  * Advisor: Yiqiang Chen
 
-Work experience
+Honors & Scholarships
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* E Fund Financial Technology Doctoral Scholarship,                                    2024
+* First-Class Academic Scholarship, University of the Chinese Academy of Sciences,            2024
+* Merit Student, UCAS,	2021-2024
+* Excellent Student Cadre, UCAS,	2022, 2024                        
+* Excellent Graduates, Beijing City,	2020
+* Excellent Bachelor's Graduation Thesis, 	2020
+* National Scholarship,	2017-2018
+* National Mathematics Competition for College Students, First Prize,                  2017-2018
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming:
+  * Python(Pytorch+++), Matlab (++), C++/C (++)
+* Language:
+  * Chinese: Mother Tongue
+  * English: CET-6
+  * Japanese: JLPT N2
+* Hobby:
+  * Swimming, Traveling
 
 Publications
 ======
@@ -47,18 +44,16 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* Oral at ECAI 2023 (Krakow, Poland)
+* Oral at BIBM 2024 (Lisbon, Portugal)
+
+Patent
+======
+* 10 China National Patents have been accepted. 
   
-Teaching
+Other Information
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 720th Xiangshan Science Conference, Secretary of the Conference
+* 
