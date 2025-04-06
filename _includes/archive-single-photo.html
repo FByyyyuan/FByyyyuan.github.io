@@ -1,69 +1,52 @@
-{% include base_path %}
-
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="archive__item-container">
-      {% if teaser %}
-        <div class="archive__item-image">
-          <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="Image">
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method Display</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* 保持之前的CSS样式 */
+        body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        .method-header { text-align: center; font-size: 2.5em; color: #333; margin-bottom: 30px; border-bottom: 2px solid #007BFF; padding-bottom: 10px; }
+        .method-container { display: flex; align-items: center; gap: 40px; background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin-bottom: 40px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        .description { flex: 1; font-size: 1.1em; color: #555; }
+        .method-image { flex: 1; text-align: center; }
+        .method-image img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+        .publications { margin-top: 40px; }
+        .publications h2 { font-size: 1.8em; color: #333; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 20px; }
+        .archive__item { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; padding: 15px; background-color: #fff; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+        .archive__item-image { flex: 1; text-align: center; }
+        .archive__item-image img { max-width: 100%; height: auto; border-radius: 5px; }
+        .archive__item-description { flex: 2; color: #666; }
+        .archive__item-title { margin: 0; font-size: 1.2em; color: #007BFF; }
+        .archive__item-title a { text-decoration: none; color: #007BFF; }
+        .archive__item-title a:hover { text-decoration: underline; }
+        .page__meta, .page__date { font-size: 0.9em; color: #888; margin: 5px 0; }
+        .archive__item-excerpt { margin: 10px 0; font-size: 0.95em; }
+        .citation { font-size: 0.9em; color: #555; margin: 5px 0; }
+        a { color: #007BFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1 class="method-header">MethodName</h1>
+    
+    <div class="method-container">
+        <div class="description">
+            <strong>描述</strong><br>
+            这里是方法的详细描述，可以写多行文字来说明这个方法的作用、用法或任何相关信息。
         </div>
-      {% endif %}
-      
-      <div class="archive__item-description">
-        <h3 class="archive__item-title" itemprop="headline">
-          {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-          {% else %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-          {% endif %}
-        </h3>
-        
-        {% if post.read_time %}
-          <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-        {% endif %}
-
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        <!-- Truncate text to show a portion -->
-        <p class="archive__item-excerpt" itemprop="description">
-          {{ post.excerpt | markdownify | truncatewords: 40 }}
-        </p>
-
-        <!-- "Read More" link -->
-        <p><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read More...</a></p>
-
-        {% if post.citation and post.paperurl and post.slidesurl %}
-          <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-        {% elsif post.citation and post.paperurl %}
-          <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-        {% elsif post.citation and post.slidesurl %}
-          <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-        {% elsif post.citation %}
-          <p>Recommended citation: {{ post.citation }}</p>
-        {% elsif post.paperurl %}
-          <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-        {% elsif post.slidesurl %}
-          <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-        {% endif %}
-      </div>
+        <div class="method-image">
+            <img src="https://via.placeholder.com/400x300" alt="方法图片">
+        </div>
     </div>
-  </article>
-</div>
+
+    <div class="publications">
+        <h2>Publications</h2>
+        {% for post in site.publications reversed %}
+            {% include archive-single-cv.html %}
+        {% endfor %}
+    </div>
+</body>
+</html>
