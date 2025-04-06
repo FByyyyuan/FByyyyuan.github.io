@@ -19,6 +19,11 @@
         <div class="archive__item-image">
           <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="Image">
         </div>
+      {% else %}
+        <!-- Optional: Provide a default image if teaser is not available -->
+        <div class="archive__item-image">
+          <img src="{{ base_path }}/images/default-image.jpg" alt="Default Image">
+        </div>
       {% endif %}
       
       <div class="archive__item-description">
