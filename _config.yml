@@ -20,7 +20,7 @@ repository               : "FByyyyuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : /images/FByuan.jpg
+  avatar           : images/FByuan.jpg
   name             : "Yuan Ma"
   pronouns         : # example: "she/her"  
   bio              : "F.B"
@@ -81,6 +81,8 @@ publication_category:
     title: 'Journal paper'    
   conferences:
     title: 'Conference paper'
+  paper:
+    title: 'Non-First-Author Publications'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
