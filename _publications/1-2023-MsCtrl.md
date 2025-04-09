@@ -15,4 +15,4 @@ Domain generalization (DG), which aims to learn a model that can generalize to a
 
 To address this limitation, we introduce a novel dynamic domain-weighted contrastive loss, which maximizes the subdomain differences between different classes (especially those belonging to the same domain), while minimizing the diameter of the convex hull of the source domains. We propose Multi-source domain-adversarial generalization via Contrastive transfer learning (MsCtrl), a novel domain-adversarial generalization framework, which optimizes the distribution alignment of source and potential target subdomains in an adversarial manner under the "control" of the aforementioned contrastive loss. Extensive experiments based on real-world datasets demonstrate significant advantages of MsCtrl over existing state-of-the-art methods.
 
-![image](files/FB001.png)
+![image](/files/FB001.png)
