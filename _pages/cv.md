@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Computer Science, 2020-2026 (expected)
+* Ph.D. in Computer Science, 2026 (expected)
   * Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China
   * Thesis: Transfer learning methods in ubiquitous computing.
   * Advisor: Yiqiang Chen
@@ -19,7 +19,7 @@ Education
 Honors & Scholarships
 ======
 * E Fund Financial Technology Doctoral Scholarship,                                    2024
-* First-Class Academic Scholarship, University of the Chinese Academy of Sciences,            2024
+* First-Class Academic Scholarship, UCAS,            2024
 * Merit Student, UCAS,	2021-2024
 * Excellent Student Cadre, UCAS,	2022, 2024                        
 * Excellent Graduates, Beijing City,	2020
@@ -46,8 +46,8 @@ Publications
   
 Presentations
 ======
-* Oral presentation at ECAI 2023 (Krakow, Poland)
-* Oral presentation at IEEE BIBM 2024 (Lisbon, Portugal)
+* Oral presentation at ECAI 2023 (Krakow, Poland).
+* Oral presentation at IEEE BIBM 2024 (Lisbon, Portugal).
 
 Patent
 ======
@@ -55,4 +55,4 @@ Patent
   
 Other Information
 ======
-* 720th Xiangshan Science Conference, Secretary of the Conference
+* 720th Xiangshan Science Conference, Secretary of the Conference.
