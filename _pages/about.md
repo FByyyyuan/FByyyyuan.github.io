@@ -11,7 +11,8 @@ redirect_from:
 I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computing Technology, Chinese Academy of Sciences](http://english.ict.cas.cn/), advised by [Prof. Yiqiang Chen](https://scholar.google.com/citations?user=LC3SwhEAAAAJ&hl=en), and I work primarily in the intersection of transfer learning algorithms and applications in ubiquitous computing.
 
 ### Research Interests:
-- **Transfer Learning： Domain Adaptation and Generalization**  
+- **Transfer Learning： Domain Adaptation (DA) and Generalization (DG)**
+- **Retrieval-Augmented Generation (RAG)**  
 - **AI for Healthcare**
 
 ### Publications
