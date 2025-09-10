@@ -42,7 +42,7 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
   
   <!-- 16:9图片部分 -->
   <div style="flex: 1; min-width: 300px;">
-    <img src="files/FB004.jpg" 
+    <img src="/files/FB004.jpg" 
          alt="Research Overview" 
          style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <p style="font-size: 12px; color: #666; margin-top: 5px; text-align: center;">
