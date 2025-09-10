@@ -19,10 +19,7 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
-
 <!-- 在Publications部分添加以下代码 -->
-<h2>Publications</h2>
-
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
   <!-- 论文列表部分 -->
   <div style="flex: 2;">
@@ -45,7 +42,7 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
   
   <!-- 16:9图片部分 -->
   <div style="flex: 1; min-width: 300px;">
-    <img src="/images/research-overview.jpg" 
+    <img src="files/FB004.jpg" 
          alt="Research Overview" 
          style="width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <p style="font-size: 12px; color: #666; margin-top: 5px; text-align: center;">
