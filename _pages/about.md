@@ -116,12 +116,12 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
       </div>
       <div class="pub-venue">Knowledge-Based Systems 2025</div>
       <div class="pub-description">
-        提出了域解耦不变表示学习方法，通过有效分离域特定和域不变特征，实现跨域场景下的精准预测。
+        A domain decoupling invariant representation learning method is proposed, which effectively separates DOI and domain-invariant features to achieve accurate predictions in cross-domain scenarios.
       </div>
     </div>
     <div class="publication-visual">
-      <img src="/images/ddir-method.jpg" alt="DDIR Method" class="diagram-img">
-      <div class="diagram-caption">DDIR方法示意图</div>
+      <img src="/files/FB004.jpg" alt="DDIR Method" class="diagram-img">
+      <div class="diagram-caption">DDIR method</div>
     </div>
   </div>
 
@@ -132,12 +132,12 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
       </div>
       <div class="pub-venue">IEEE Trans. Medical Imaging 2024</div>
       <div class="pub-description">
-        针对医学图像分析中的等级偏斜问题，开发了非对称双分类器方法，显著提升糖尿病视网膜病变诊断准确率。
+        To address the issue of grade skew in medical image analysis, an asymmetric dual classifier method was developed, which significantly improved the diagnostic accuracy.
       </div>
     </div>
     <div class="publication-visual">
-      <img src="/images/retinopathy-system.jpg" alt="Retinopathy System" class="diagram-img">
-      <div class="diagram-caption">视网膜病变分级系统</div>
+      <img src="/files/FB003.png" alt="Retinopathy System" class="diagram-img">
+      <div class="diagram-caption">grading system</div>
     </div>
   </div>
 
@@ -148,12 +148,12 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
       </div>
       <div class="pub-venue">IEEE BIBM 2024</div>
       <div class="pub-description">
-        通过多专家一致性熵最小化策略，有效解决时间序列数据中的类别不平衡和域适应双重挑战。
+        By adopting the multi-expert consistency entropy minimization strategy, we effectively address the dual challenges of the reliability of the enhancement method and the domain adaptation for the imbalance of categories in time series data.
       </div>
     </div>
     <div class="publication-visual">
-      <img src="/images/timeseries-experts.jpg" alt="Time Series Experts" class="diagram-img">
-      <div class="diagram-caption">多专家时间序列模型</div>
+      <img src="/files/FB002-2.jpg" alt="Time Series Experts" class="diagram-img">
+      <div class="diagram-caption">MECEM framework</div>
     </div>
   </div>
 
@@ -164,12 +164,12 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
       </div>
       <div class="pub-venue">ECAI 2023</div>
       <div class="pub-description">
-        摆脱传统自域感知限制，通过动态域加权对比学习实现更强的多源域泛化能力。
+        By breaking away from the limitations of traditional self-domain perception, stronger multi-source domain generalization capabilities are achieved through dynamic domain-weighted contrastive learning.
       </div>
     </div>
     <div class="publication-visual">
-      <img src="/images/multisource-framework.jpg" alt="Multi-source Framework" class="diagram-img">
-      <div class="diagram-caption">多源域泛化框架</div>
+      <img src="/files/FB001.png" alt="Multi-source Framework" class="diagram-img">
+      <div class="diagram-caption">MsCtrl framework</div>
     </div>
   </div>
 </div>
