@@ -1,4 +1,3 @@
----
 permalink: /
 title: "About Me"
 author_profile: true
@@ -128,25 +127,25 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
   <div class="publication-card">
     <div class="publication-text">
       <div class="pub-title">
-        Grade-Skewed Domain Adaptation for Diabetic Retinopathy Grading
+        Grade-Skewed Domain Adaptation via Asymmetric Bi-Classifier Discrepancy Minimization for Diabetic Retinopathy Grading
       </div>
-      <div class="pub-venue">IEEE Trans. Medical Imaging 2024</div>
+      <div class="pub-venue">IEEE Transactions on Medical Imaging 2024</div>
       <div class="pub-description">
         To address the issue of grade skew in medical image analysis, an asymmetric dual classifier method was developed, which significantly improved the diagnostic accuracy.
       </div>
     </div>
     <div class="publication-visual">
-      <img src="/files/FB003.png" alt="Retinopathy System" class="diagram-img">
-      <div class="diagram-caption">grading system</div>
+      <img src="/files/FB003-2.png" alt="Retinopathy System" class="diagram-img">
+      <div class="diagram-caption">ABiD grading system</div>
     </div>
   </div>
 
   <div class="publication-card">
     <div class="publication-text">
       <div class="pub-title">
-        Class-imbalanced Time Series Adaptation via Multi-Expert Consistency
+        Class-imbalanced time series domain adaptation via multi-expert consistency entropy minimization
       </div>
-      <div class="pub-venue">IEEE BIBM 2024</div>
+      <div class="pub-venue">IEEE International Conference on Bioinformatics and Biomedicine 2024</div>
       <div class="pub-description">
         By adopting the multi-expert consistency entropy minimization strategy, we effectively address the dual challenges of the reliability of the enhancement method and the domain adaptation for the imbalance of categories in time series data.
       </div>
@@ -160,9 +159,9 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
   <div class="publication-card">
     <div class="publication-text">
       <div class="pub-title">
-        Multi-Source Domain-Adversarial Generalization via Dynamic Domain-Weighted Contrastive Learning
+        Letting Go of Self-Domain Awareness: Multi-Source Domain-Adversarial Generalization via Dynamic Domain-Weighted Contrastive Transfer Learning
       </div>
-      <div class="pub-venue">ECAI 2023</div>
+      <div class="pub-venue">European Conference on Artificial Intelligence 2023 </div>
       <div class="pub-description">
         By breaking away from the limitations of traditional self-domain perception, stronger multi-source domain generalization capabilities are achieved through dynamic domain-weighted contrastive learning.
       </div>
