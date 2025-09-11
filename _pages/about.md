@@ -1,3 +1,4 @@
+---
 permalink: /
 title: "About Me"
 author_profile: true
@@ -77,9 +78,9 @@ I am Yuan Ma from Beijing, China. I am a Ph.D. student at [Institute Of Computin
 
 .diagram-img {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 17/9;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
